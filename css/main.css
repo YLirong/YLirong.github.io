@@ -8,6 +8,12 @@ body {
   text-align: center;
 }
 
+body {
+  background-image: url(images/the.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 h1 {
   padding: 20px 0px 10px 0px;
 }
