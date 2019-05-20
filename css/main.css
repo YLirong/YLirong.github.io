@@ -3,10 +3,30 @@ body {
   margin: 30px auto;
   max-width: 1000px;
   font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 20px;
   line-height: 1.5;
   padding: 30px 20px;
   text-align: center;
+  text-decoration: none;
+//color: purple;//
 }
+
+a:link {
+   text-decoration: none;
+
+  }
+
+a:visited{
+  color:pink;
+}
+
+a:hover {
+  color:purple;
+
+}
+
+
+
 
 body {
   background-image: url(images/the.jpg);
@@ -40,6 +60,8 @@ background-color: #f7f7f7;
    width: 300px;
 
    padding: 10px;
+
+
 }
 
 
@@ -48,5 +70,13 @@ background-color: #f7f7f7;
   width: 300px;
 
   padding: 300px;
+
+}
+
+#div{
+float: left;
+margin-left: 300px;
+
+
 
 }
