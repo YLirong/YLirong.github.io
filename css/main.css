@@ -28,3 +28,19 @@ margin-top: 60px;
 padding: 40px;
 background-color: #f7f7f7;
 }
+
+.tu2{
+  float: left;
+   width: 300px;
+
+   padding: 10px;
+}
+
+
+.final{
+  float: right;
+  width: 300px;
+
+  padding: 300px;
+
+}
