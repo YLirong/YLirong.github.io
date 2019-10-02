@@ -11,20 +11,48 @@ body {
 //color: purple;//
 }
 
+
+.header {
+        padding: 0px;
+        text-align: center;
+        font-size: 22px;
+    }
+
+.header ul {
+      	display: flex;
+        justify-content: center;
+    }
+
+.header ul li {
+    	list-style-type:none;
+    	display: list-item;
+    	line-height: 10px;
+      padding: 10px 70px 10px 0px;
+    }
+
 a:link {
    text-decoration: none;
 
   }
 
-a:visited{
-  color:pink;
-}
+  a {
+  color: 		#2E8B57;
+  text-decoration: none;
+  }
+
+/* a:visited{
+  color:#BADA55;
+} */
 
 a:hover {
-  color:purple;
+  color: black;
 
 }
-
+/*
+a {
+color: 		#228B22;
+text-decoration: none;
+} */
 
 
 
@@ -55,6 +83,7 @@ padding: 40px;
 background-color: #f7f7f7;
 }
 
+
 .tu2{
   float: left;
    width: 300px;
@@ -72,11 +101,9 @@ background-color: #f7f7f7;
   padding: 300px;
 
 }
-
+/*
 #div{
-float: left;
+float:left ;
 margin-left: 300px;
 
-
-
-}
+} */
