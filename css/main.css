@@ -8,7 +8,7 @@ body {
   margin: 5px auto;
   max-width: 1000px;
   font-family: "Helvetica", "Arial", sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
   padding: 0px 60px;
   text-align: center;
@@ -102,12 +102,14 @@ body {
   background-image: url(images/the.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color:  #90ee90;
 }
 
 h1 {
   padding: 20px 0px 10px 0px;
   /* color: #6f9445; */
-  color:#BADA55;
+  /* color:#BADA55; */
+  color: pink;
 }
 
 
@@ -127,6 +129,12 @@ padding: 40px;
 background-color: #f7f7f7;
 }
 
+#bg{
+  background-color: #6f9445;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
 
 .tu2{
   float: left;
